@@ -12,7 +12,7 @@ a = None
 print(type(old))
 print(type(a))
 
-#arithmetic operators.
+#Arithmetic operators.
 a = 10
 b = 5
 add = a+b
@@ -28,4 +28,33 @@ print("Division of a&b:",devide)
 print("modulor of a&b:",mod)
 print("remainder b/w a&b:",rem)
 
-#relational operators.
+#Relational operators.
+a = 10
+b = 20
+print(a==b)         #False
+print(a!=b)         #True
+print(a>=b)         #False
+print(a>b)          #False
+print(a<=b)         #True
+print(a<b)          #True
+
+#Assignment Operators
+
+num = 10
+#num = num+10       #20
+#num += 10          #20
+#num -= 10          #0
+#num /= 10          #1.0
+#num *= 10          #100
+#num %= 10          #0
+num **= 3           #1000
+print("num:",num)
+
+#Loogical Operators (works on boolean values only)
+print(not True)
+print(not False)
+
+val1 = True
+val2 = False
+print("AND operator:", val1 and val2)
+print("OR operator:", val1 or val2)
